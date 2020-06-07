@@ -1,0 +1,36 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint **/*.js",
+    "test": "jest --verbose --coverage",
+    "test-watch": "jest --watchAll --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaljamal-401-advanced-javascript/authentication.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaljamal-401-advanced-javascript/authentication/issues"
+  },
+  "homepage": "https://github.com/yaljamal-401-advanced-javascript/authentication#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lint": "^0.7.0",
+    "mongoose": "^5.9.18",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
+  }
+}
