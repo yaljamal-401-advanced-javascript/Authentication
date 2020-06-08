@@ -24,4 +24,4 @@ i.e.
 
 #### UML
 
-![UML Diagram](UML/lab-11.jpg)
+![UML Diagram](UML/lab-12.jpg)
