@@ -1,5 +1,5 @@
 const base64=require('base-64');
-const users=require('./users.js');
+const users=require('../auth/users.js');
 module.exports=(req,res,next) =>{
   if(!req.headers.authorization){
     next('invalid Login');
