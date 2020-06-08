@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Aouth</title>
+</head>
+<body>
+    <a id="oauth" href="">Login Using Github</a>
+</body>
+<script>
+    const URL='https://github.com/login/oauth/authorize';
+    const options={
+        client_id:'Iv1.6387712a29956c3b',
+        scope:'read:user',
+        state:'github aouth',
+    };
+    const queryString=Object.keys(options).map((key)=>{
+        return `${key}=${encodeURIComponent(options[key])}`;
+    }).join('&');
+    const authUrl=`${URL}?${queryString}`;
+    const link=document.getElementById('oauth');
+    link.setAttribute('href',authUrl);
+</script>
+</html>
