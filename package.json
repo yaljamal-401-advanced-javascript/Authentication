@@ -24,7 +24,6 @@
     "base-64": "^0.1.0",
     "bcrypt": "^4.0.1",
     "dotenv": "^8.2.0",
-    "eslint": "^7.2.0",
     "express": "^4.17.1",
     "jest": "^26.0.1",
     "jsonwebtoken": "^8.5.1",
@@ -33,5 +32,8 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.4",
     "superagent": "^5.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
   }
 }

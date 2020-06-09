@@ -10,7 +10,7 @@ const error500=require('./middleware/500.js');
 const app=express();
 app.use(express.json());
 app.use(morgan('dev'));
-app.use(express.static('./puplic'))
+app.use(express.static('./public'));
 app.use(router);
 app.use(logger);
 app.use(error404);
@@ -20,6 +20,6 @@ module.exports={
   server:app,
   start:port=>{
     const PORT=port || process.env.PORT || 8080;
-    app.listen(PORT,()=>console.log(`Listning on port ${PORT}`));
+    app.listen(PORT,()=>console.log(`Listening on port ${PORT}`));
   },
 };

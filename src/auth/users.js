@@ -1,6 +1,5 @@
 require('dotenv').config();
-// const mongoose=require('mongoose');
-// const userSchema=require('../models/user-schema.js');
+
 const bcrypt=require('bcrypt');
 const jwt=require('jsonwebtoken');
 const SECRET=process.env.SECRET|| 'MySecret';
